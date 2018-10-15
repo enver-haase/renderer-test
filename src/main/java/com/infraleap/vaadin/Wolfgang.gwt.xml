@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.8.2//EN" "http://www.gwtproject.org/doctype/2.8.2/gwt-module.dtd">
+
+    <!-- It is important that the client-side renderer and its state class are in a sub-package called 'client'. -->
+    <!--                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^  -->
+    <!-- The mere existence of this file triggers GWT Widgetset compilation.                                     -->
+    <!-- Remove the 'vaadin-client-compiled' package dependency.                                                 -->
+    <!-- Add the 'vaadin-client' package dependency.                                                             -->
+
+    <!-- Make sure to use the new widgetset in the UI class, using @Widgetset("com.infraleap.vaadin.Wolfgang")   -->
+
+<module>
+    <!-- Inherit the default widget set -->
+    <inherits name="com.vaadin.DefaultWidgetSet" />
+</module>
